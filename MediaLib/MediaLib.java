@@ -2,12 +2,14 @@ public class MediaLib
 {
     public static void main()
     {
-       double totalPrice = 0;
-       
-       System.out.println("Welcome to your media library");
-       
-       song song1 = new song();
-       song1.setPrice(5.25);
-       System.out.println(song1.getPrice());
+        Song song2 = new Song(); 
+        song2.setTitle("this is the title");
+        String t = song2.getTitle();
+        
+        System.out.println("Welcome to your media library");
+        
+        MediaFile.writeString(t);
+        MediaFile.saveAndClose();
+        
     }
 }

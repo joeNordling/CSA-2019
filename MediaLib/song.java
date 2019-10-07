@@ -1,11 +1,11 @@
-public class song
+public class Song
 {
     int rating;
     String title;
     double price;
     boolean favorate;
     
-    public song()
+    public Song()
     {
         this.rating = 0;
         this.title = "";
