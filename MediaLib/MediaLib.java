@@ -4,10 +4,9 @@ public class MediaLib
     {
         Song song2 = new Song(); 
         song2.setTitle("this is the title");
-        song2.setRating(10);
-        String t = song2.getTitle() + " | " + song2.getRating();
+        String t = song2.getTitle();
         
-        System.out.println(t);
+        System.out.println("Welcome to your media library");
         
         MediaFile.writeString(t);
         MediaFile.saveAndClose();
