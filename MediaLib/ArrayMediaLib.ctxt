@@ -2,4 +2,6 @@
 comment0.target=ArrayMediaLib
 comment1.params=
 comment1.target=ArrayMediaLib()
-numComments=2
+comment2.params=DL
+comment2.target=double\ totalDay(int[])
+numComments=3
