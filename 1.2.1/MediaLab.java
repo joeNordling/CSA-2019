@@ -31,14 +31,14 @@ public class MediaLab{
         System.out.println(book1.getTitle());
         book1.setRating(10);
         System.out.println(book1.getRating());
-        Song song1 = new Song("1", 1.29,3);
-        Song song2 = new Song("2", 1.09,6);
-        Song song3 = new Song("3", 1.99,10);
-        Song song4 = new Song("4", 0.29,9);
-        Song song5 = new Song("5", 0.99,3);
-        Song song6 = new Song("6", 1.47,4);
-        Song song7 = new Song("7", 0.75,2);
-        Song song8 = new Song("8", 0.50,7);
+        Song song1 = new Song("Song1", 1.29,3);
+        Song song2 = new Song("Song2", 1.09,6);
+        Song song3 = new Song("Song3", 1.99,10);
+        Song song4 = new Song("Song4", 0.29,9);
+        Song song5 = new Song("Song5", 0.99,3);
+        Song song6 = new Song("Song6", 1.47,4);
+        Song song7 = new Song("Song7", 0.75,2);
+        Song song8 = new Song("Song8", 0.50,7);
         List<Song> listOfSongs = new ArrayList<>(List.of(song1,song2,song3,song4,song5,song6,song7,song8));
         for(Song song : listOfSongs){
             totalCost = totalCost + song.getPrice();
@@ -50,5 +50,9 @@ public class MediaLab{
         System.out.println(averageCost);
         System.out.println(averageRating);
         
+        for(Song song : listOfSongs){
+            MediaFile.writeString(song.getTitle()+"|"+song.getRating());
+        }
+        MediaFile.saveAndClose();
     }
 }
