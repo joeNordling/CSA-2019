@@ -1,7 +1,7 @@
 #BlueJ class context
-comment0.target=Song
+comment0.target=song
 comment1.params=
-comment1.target=Song()
+comment1.target=song()
 comment2.params=
 comment2.target=java.lang.String\ getTitle()
 comment3.params=t
