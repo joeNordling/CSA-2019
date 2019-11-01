@@ -93,13 +93,23 @@ public class ArrayMediaLib
             System.out.println("No songs are discounted");
         }
         
-        topTenSongs[8].setTitle(null);
-        index = SongFinder.getIndexLastDiscount(topTenSongs, 1.00);
+        System.out.println("--Find last song --");
+        index = SongFinder.getIndexLastTitle(topTenSongs);
         if (index >= 0 ) {
-            System.out.println("Discount found " + topTenSongs[index].getTitle());
+            System.out.println("Last title: " + topTenSongs[index].getTitle());
         }
         else {
-            System.out.println("No songs are discounted");
+            System.out.println("You have a blank title!");
+        }
+        
+        System.out.println("--Find last song -- with error");
+        topTenSongs[9].setTitle("");
+        index = SongFinder.getIndexLastTitle(topTenSongs);
+        if (index >= 0 ) {
+            System.out.println("Last title: " + topTenSongs[index].getTitle());
+        }
+        else {
+            System.out.println("You have a blank title!");
         }
         /*
         for(int i = 0; i < topTenSongs.length; i++){

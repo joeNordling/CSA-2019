@@ -18,6 +18,9 @@ public class SongFinder
             System.out.println("Null song");
             return -1;
         }
+        for(int i = 0; i < songs.length; i++){
+            System.out.println(songs[i].getTitle());
+        }
         for (int i = songs.length - 1; i >=0; i--) {
             if (songs[i].getPrice() < compare) {
                 return i;
@@ -25,4 +28,18 @@ public class SongFinder
         }
         return -1;
    }    
+   
+   public static int getIndexLastTitle(Song[] songs){
+        int i;
+        if (songs == null) {
+           return -1;
+        }
+        for (i = 0; i < songs.length; i++) {
+           // skip if no title
+           if (songs[i].getTitle().equals("")) {
+               return -1;
+           }
+        }
+        return i-1;
+    }
 }

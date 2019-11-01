@@ -4,4 +4,6 @@ comment1.params=songs\ target
 comment1.target=int\ findTitle(Song[],\ java.lang.String)
 comment2.params=songs\ compare
 comment2.target=int\ getIndexLastDiscount(Song[],\ double)
-numComments=3
+comment3.params=songs
+comment3.target=int\ getIndexLastTitle(Song[])
+numComments=4
