@@ -12,6 +12,14 @@ public class song
         this.price = 0.0;
         this.favorate = false;
     }
+    public song(String t)
+    {
+        this.rating = 0;
+        this.title = t;
+        this.price = 0.0;
+        this.favorate = false;
+    }
+    
     public String getTitle() 
     {
         return title;
