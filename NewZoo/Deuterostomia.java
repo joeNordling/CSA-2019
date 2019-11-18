@@ -5,24 +5,10 @@ public abstract class Deuterostomia extends Animalia
         super(name, desc);
     }
     
-    public String getName() 
-    {
-        return super.getName();
-    }
-    
-    public String getDesc()
-    {
-        return super.getDesc();
-    }
-    
     public String getParent(){
         return "Animalia";
     }
     
-    public void getDescriptionAnimalia(){
-        super.getDescriptionAnimalia();
-    }
- 
     public void getDescriptionDeuterostomia(){
         System.out.println("Deuterostomia is a subtaxon of the Bilateria branch " +
                            "of the subkingdom Eumetazoa, within Animalia, and are " +

@@ -5,26 +5,8 @@ public abstract class Tetrapoda extends Deuterostomia implements Walking
         super(name, desc);
     }
     
-    public String getName() 
-    {
-        return super.getName();
-    }
-    
-    public String getDesc()
-    {
-        return super.getDesc();
-    }
-    
     public String getParent(){
         return "Deuterostomia";
-    }
-    
-    public void getDescriptionAnimalia(){
-        super.getDescriptionAnimalia();
-    }
-    
-    public void getDescriptionDeuterostomia(){
-        super.getDescriptionDeuterostomia();
     }
     
     public void getDescriptionTetrapoda(){

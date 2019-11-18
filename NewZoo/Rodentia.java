@@ -5,30 +5,8 @@ public abstract class Rodentia extends Tetrapoda
         super(name, desc);
     }
     
-    public String getName() 
-    {
-        return super.getName();
-    }
-    
-    public String getDesc()
-    {
-        return super.getDesc();
-    }
-    
     public String getParent(){
         return "Tetrapoda";  
-    }
-    
-    public void getDescriptionAnimalia(){
-        super.getDescriptionAnimalia();
-    }
-    
-    public void getDescriptionDeuterostomia(){
-        super.getDescriptionDeuterostomia();
-    }
-    
-    public void getDescriptionTetrapoda(){
-        super.getDescriptionTetrapoda();
     }
     
     public void getDescriptionRodentia(){

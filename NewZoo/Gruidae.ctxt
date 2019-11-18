@@ -1,9 +1,9 @@
 #BlueJ class context
-comment0.target=Hystrix
+comment0.target=Gruidae
 comment1.params=name\ desc
-comment1.target=Hystrix(java.lang.String,\ java.lang.String)
+comment1.target=Gruidae(java.lang.String,\ java.lang.String)
 comment2.params=
 comment2.target=java.lang.String\ getParent()
 comment3.params=
-comment3.target=void\ getDescriptionHystrix()
+comment3.target=void\ getDescriptionGruidae()
 numComments=4
