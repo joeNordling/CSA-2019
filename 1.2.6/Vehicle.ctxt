@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Vehicle
+comment1.params=Make\ Model\ Year
+comment1.target=Vehicle(java.lang.String,\ java.lang.String,\ int)
+comment2.params=amount
+comment2.target=void\ forward(int)
+comment3.params=amount
+comment3.target=void\ backward(int)
+comment4.params=
+comment4.target=void\ turnLeft()
+comment5.params=
+comment5.target=void\ turnRight()
+numComments=6

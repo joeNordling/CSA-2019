@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Motorcycle
+comment1.params=Make\ Model\ Year
+comment1.target=Motorcycle(java.lang.String,\ java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ Honk()
+numComments=3
