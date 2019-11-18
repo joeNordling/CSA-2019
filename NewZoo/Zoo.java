@@ -13,7 +13,6 @@ public class Zoo
 {
     public static  void main(String[] args) throws InterruptedException 
     {
-        
         List<Animal> animals = new ArrayList<Animal>();
 
         System.out.println("Welcome to the Zoo!\n");

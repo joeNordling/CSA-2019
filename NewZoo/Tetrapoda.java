@@ -1,4 +1,4 @@
-public abstract class Tetrapoda extends Deuterostomia
+public abstract class Tetrapoda extends Deuterostomia implements Walking
 {
     public Tetrapoda(String name, String desc)
     {
@@ -32,5 +32,9 @@ public abstract class Tetrapoda extends Deuterostomia
                            "animals constituting the superclass Tetrapoda. It includes extant " +
                            "and extinct amphibians, reptiles (including dinosaurs and therefore birds), " +
                            "and mammals.");
+    }
+    
+    public String walk() {
+        return "runs and walks";
     }
 }
