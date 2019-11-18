@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Zoo
+comment0.text=\n\ Test\n\ \n\ @author\ APCSA2014-15\ \n\ @version\ 2015-03-06\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=animals
+comment2.target=java.lang.String\ visitCages(java.util.List)
+comment3.params=animals
+comment3.target=java.lang.String\ listen(java.util.List)
+comment4.params=animals
+comment4.target=java.lang.String\ lookDown(java.util.List)
+comment5.params=animals
+comment5.target=java.lang.String\ lookAround(java.util.List)
+comment6.params=animals
+comment6.target=java.lang.String\ lookUp(java.util.List)
+comment7.params=dotAmount
+comment7.target=void\ delayDots(int)
+comment7.text=\n\ This\ prints\ an\ ellipses\ with\ 1\ second\ between\ each\ period\n\ It\ then\ moves\ to\ the\ next\ line.\n
+comment8.params=
+comment8.target=void\ delayDots()
+comment8.text=\n\ This\ prints\ an\ ellipses\ with\ 1\ second\ between\ each\ period\n\ It\ then\ moves\ to\ the\ next\ line.\n
+comment9.params=animals
+comment9.target=void\ populateAnimals(java.util.List)
+comment9.text=\n\ This\ is\ where\ we\ will\ all\ collaborate.\n\ Construct\ your\ animal\ and\ add\ it\ to\ the\ List\n\ @param\ animals\ the\ list\ containing\ all\ the\ zoo\ animals\n
+numComments=10
