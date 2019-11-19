@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Zoo
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=animals
+comment2.target=java.lang.String\ visitCages(java.util.List)
+comment3.params=animals
+comment3.target=java.lang.String\ listen(java.util.List)
+comment4.params=animals
+comment4.target=java.lang.String\ lookDown(java.util.List)
+comment5.params=animals
+comment5.target=java.lang.String\ lookAround(java.util.List)
+comment6.params=animals
+comment6.target=java.lang.String\ lookUp(java.util.List)
+comment7.params=dotAmount
+comment7.target=void\ delayDots(int)
+comment7.text=\r\n\ This\ prints\ an\ ellipses\ with\ 1\ second\ between\ each\ period\r\n\ It\ then\ moves\ to\ the\ next\ line.\r\n
+comment8.params=
+comment8.target=void\ delayDots()
+comment8.text=\r\n\ This\ prints\ an\ ellipses\ with\ 1\ second\ between\ each\ period\r\n\ It\ then\ moves\ to\ the\ next\ line.\r\n
+comment9.params=animals
+comment9.target=void\ populateAnimals(java.util.List)
+numComments=10
