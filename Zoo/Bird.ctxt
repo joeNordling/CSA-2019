@@ -10,4 +10,6 @@ comment4.params=
 comment4.target=java.lang.String\ eat()
 comment5.params=
 comment5.target=java.lang.String\ walk()
-numComments=6
+comment6.params=
+comment6.target=java.lang.String\ fly()
+numComments=7

@@ -1,4 +1,4 @@
-public class Bird extends Animal implements Walking
+public class Bird extends Animal implements Walking,Flying
 {
     public Bird()
     {
@@ -18,4 +18,5 @@ public class Bird extends Animal implements Walking
         return "seeds";
     }
     public String walk() {return "hops";}
+    public String fly() {return "Fly";}
 }
