@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Proboscidea
+comment1.params=name\ desc
+comment1.target=Proboscidea(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getParent()
+comment3.params=
+comment3.target=void\ getDescriptionProboscidea()
+numComments=4

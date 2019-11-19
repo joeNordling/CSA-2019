@@ -10,9 +10,9 @@ public abstract class Hystrix extends Hystricidae
     }
     
     public void getDescriptionHystrix(){
-        System.out.println("Hystrix is a genus of porcupines containing " +
-                           "most of the Old World porcupines. Fossils " +
-                           "belonging to the genus date back to the late " +
-                           "Miocene of Africa.");
+        System.out.println("Hystrix is a genus of porcupines containing ");
+        System.out.println("most of the Old World porcupines. Fossils ");
+        System.out.println("belonging to the genus date back to the late ");
+        System.out.println("Miocene of Africa.");
     }
 }

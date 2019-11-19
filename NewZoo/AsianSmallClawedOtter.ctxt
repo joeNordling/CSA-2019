@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=AsianSmallClawedOtter
+comment1.params=name\ desc
+comment1.target=AsianSmallClawedOtter(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ makeNoise()
+comment3.params=
+comment3.target=java.lang.String\ eat()
+comment4.params=
+comment4.target=java.lang.String\ walk()
+comment5.params=
+comment5.target=java.lang.String\ swim()
+comment6.params=
+comment6.target=java.lang.String[]\ getParents()
+comment7.params=statement
+comment7.target=void\ getDescription(java.lang.String)
+numComments=8

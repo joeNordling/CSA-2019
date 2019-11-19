@@ -17,9 +17,5 @@ public abstract class Aves extends Chordata implements Flying
         System.out.println("a four-chambered heart, and a strong yet");
         System.out.println("lightweight skeleton.");
     }
-    
-    public String fly(){
-        return "Flies";
-    }
 }
 
