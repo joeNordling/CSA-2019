@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Cheetah
+comment1.params=name\ desc
+comment1.target=Cheetah(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ makeNoise()
+comment3.params=
+comment3.target=java.lang.String\ eat()
+comment4.params=
+comment4.target=java.lang.String\ walk()
+comment5.params=
+comment5.target=java.lang.String[]\ getParents()
+comment6.params=statement
+comment6.target=void\ getDescription(java.lang.String)
+numComments=7
