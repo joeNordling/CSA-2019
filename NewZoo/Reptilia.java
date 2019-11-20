@@ -1,4 +1,4 @@
-public abstract class Reptilia extends Chordata implements Swimming
+public abstract class Reptilia extends Chordata
 {
     public Reptilia(String name, String desc)
     {
