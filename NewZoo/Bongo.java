@@ -1,43 +1,43 @@
-public class Chimpanzee extends Pan
+public class Bongo extends Tragelaphus
 {
-    public Chimpanzee(String name, String desc)
+    public Bongo(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise()
     {
-        return "Hoot";
+        return "groan";
     }
     
     public String eat()
     {
-        return "Fruit, leaves, leaf buds, seeds, blossoms, stems, pith, bark and resin.";
+        return "Leaves, bushes, vines, bark and pith of rotting trees, grasses/herbs, roots, cereals, and fruits";
     }
     
     public String walk()
     {
-        return "Climbs up trees";
+        return "Gallops";
     }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", 
-                "Pan", "Chimpanzee"};  
+        return new String[]{"Animalia", "Chordata", "Mammalia", "Artiodactyla", "Bovidae", 
+                "Tragelaphus", "Bongo"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Chimpanzee":
+            case "Bongo":
                 super.getDesc();
                 break;
-            case "Pan":
-                super.getDescriptionPan();
+            case "Tragelaphus":
+                super.getDescriptionTragelaphus();
                 break;
-            case "Hominidae":
-                super.getDescriptionHominidae();
+            case "Bovidae":
+                super.getDescriptionBovidae();
                 break;
-            case "Primates":
-                super.getDescriptionPrimates();
+            case "Artiodactyla":
+                super.getDescriptionArtiodactyla();
                 break;
             case "Mammalia":
                 super.getDescriptionMammalia();

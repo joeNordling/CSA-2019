@@ -1,18 +1,18 @@
-public class Chimpanzee extends Pan
+public class BlueMonkey extends Cercopithecus
 {
-    public Chimpanzee(String name, String desc)
+    public BlueMonkey(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise()
     {
-        return "Hoot";
+        return "hoot";
     }
     
     public String eat()
     {
-        return "Fruit, leaves, leaf buds, seeds, blossoms, stems, pith, bark and resin.";
+        return "Fruits, figs, insects, leaves, twigs, and flowers";
     }
     
     public String walk()
@@ -21,20 +21,20 @@ public class Chimpanzee extends Pan
     }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", 
-                "Pan", "Chimpanzee"};  
+        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Cercopithecidae", 
+                "Cercopithecus", "Blue Monkey"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Chimpanzee":
+            case "Blue Monkey":
                 super.getDesc();
                 break;
-            case "Pan":
-                super.getDescriptionPan();
+            case "Cercopithecus":
+                super.getDescriptionCercopithecus();
                 break;
-            case "Hominidae":
-                super.getDescriptionHominidae();
+            case "Cercopithecidae":
+                super.getDescriptionCercopithecidae();
                 break;
             case "Primates":
                 super.getDescriptionPrimates();

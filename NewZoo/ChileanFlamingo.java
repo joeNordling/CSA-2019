@@ -1,44 +1,41 @@
-public class HumboldtPenguin extends Spheniscus
+public class ChileanFlamingo extends Phoenicopterus
 {
-    public HumboldtPenguin(String name, String desc)
+    public ChileanFlamingo(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise(){
-        return "Donkey honk";
+        return "honks";
     }
     
     public String eat(){
-        return "Krill, fish";
+        return "Mainly algae and plankton";
     }
     
     public String fly(){
-        return "carelessly flaps wings";
+        return "Gracefully flaps wings";
     }
     
-    public String swim(){
-        return "streamlessly swims through the water";
-    }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Aves", "Sphenisciformes", "Scheniscidae", 
-                "Spheniscus", "Humboldt Penguin"};  
+        return new String[]{"Animalia", "Chordata", "Aves", "Phoenicopteriformes", "Phoenicopteridae", 
+                "Phoenicopterus", "Chilean Flamingo"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Humboldt Penguin":
+            case "Chilean Flamingo":
                 super.getDesc();
                 break;
-            case "Spheniscus":
-                super.getDescriptionSpheniscus();
+            case "Phoenicopterus":
+                super.getDescriptionPhoenicopterus();
                 break;
-            case "Scheniscidae":
-                super.getDescriptionScheniscidae();
+            case "Phoenicopteridae":
+                super.getDescriptionPhoenicopteridae();
                 break;
-            case "Sphenisciformes":
-                super.getDescriptionSphenisciformes();
+            case "Phoenicopteriformes":
+                super.getDescriptionPhoenicopteriformes();
                 break;
             case "Aves":
                 super.getDescriptionAves();

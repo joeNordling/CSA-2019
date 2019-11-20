@@ -1,4 +1,4 @@
-public abstract class Sphenisciformes extends Aves
+public abstract class Sphenisciformes extends Aves implements Swimming
 {
     public Sphenisciformes(String name, String desc)
     {

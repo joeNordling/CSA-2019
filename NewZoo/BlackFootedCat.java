@@ -1,43 +1,43 @@
-public class Chimpanzee extends Pan
+public class BlackFootedCat extends Felis
 {
-    public Chimpanzee(String name, String desc)
+    public BlackFootedCat(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise()
     {
-        return "Hoot";
+        return "purrs";
     }
     
     public String eat()
     {
-        return "Fruit, leaves, leaf buds, seeds, blossoms, stems, pith, bark and resin.";
+        return "Rodents and small birds";
     }
     
     public String walk()
     {
-        return "Climbs up trees";
+        return "Sprints";
     }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", 
-                "Pan", "Chimpanzee"};  
+        return new String[]{"Animalia", "Chordata", "Mammalia", "Carnivora", "Felidae", 
+                "Felis", "Black Footed Cat"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Chimpanzee":
+            case "Black Footed Cat":
                 super.getDesc();
                 break;
-            case "Pan":
-                super.getDescriptionPan();
+            case "Felis":
+                super.getDescriptionFelis();
                 break;
-            case "Hominidae":
-                super.getDescriptionHominidae();
+            case "Felidae":
+                super.getDescriptionFelidae();
                 break;
-            case "Primates":
-                super.getDescriptionPrimates();
+            case "Carnivora":
+                super.getDescriptionCarnivora();
                 break;
             case "Mammalia":
                 super.getDescriptionMammalia();

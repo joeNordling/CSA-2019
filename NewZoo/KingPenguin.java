@@ -1,6 +1,6 @@
-public class HumboldtPenguin extends Spheniscus
+public class KingPenguin extends Aptenodytes
 {
-    public HumboldtPenguin(String name, String desc)
+    public KingPenguin(String name, String desc)
     {
         super(name, desc);
     }
@@ -10,7 +10,7 @@ public class HumboldtPenguin extends Spheniscus
     }
     
     public String eat(){
-        return "Krill, fish";
+        return "Krill, fish, squid";
     }
     
     public String fly(){
@@ -23,16 +23,16 @@ public class HumboldtPenguin extends Spheniscus
     
     public String[] getParents(){
         return new String[]{"Animalia", "Chordata", "Aves", "Sphenisciformes", "Scheniscidae", 
-                "Spheniscus", "Humboldt Penguin"};  
+                "Aptenodytes", "King Penguin"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Humboldt Penguin":
+            case "King Penguin":
                 super.getDesc();
                 break;
-            case "Spheniscus":
-                super.getDescriptionSpheniscus();
+            case "Aptenodytes":
+                super.getDescriptionAptenodytes();
                 break;
             case "Scheniscidae":
                 super.getDescriptionScheniscidae();

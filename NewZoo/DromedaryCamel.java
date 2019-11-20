@@ -1,43 +1,43 @@
-public class Chimpanzee extends Pan
+public class DromedaryCamel extends Camelus
 {
-    public Chimpanzee(String name, String desc)
+    public DromedaryCamel(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise()
     {
-        return "Hoot";
+        return "mmhrrr";
     }
     
     public String eat()
     {
-        return "Fruit, leaves, leaf buds, seeds, blossoms, stems, pith, bark and resin.";
+        return "Foliage, dry grasses and desert vegetation";
     }
     
     public String walk()
     {
-        return "Climbs up trees";
+        return "trots";
     }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", 
-                "Pan", "Chimpanzee"};  
+        return new String[]{"Animalia", "Chordata", "Mammalia", "Artiodactyla", "Camelidae", 
+                "Camelus", "DromedaryCamel"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Chimpanzee":
+            case "DromedaryCamel":
                 super.getDesc();
                 break;
-            case "Pan":
-                super.getDescriptionPan();
+            case "Camelus":
+                super.getDescriptionCamelus();
                 break;
-            case "Hominidae":
-                super.getDescriptionHominidae();
+            case "Camelidae":
+                super.getDescriptionCamelidae();
                 break;
-            case "Primates":
-                super.getDescriptionPrimates();
+            case "Artiodactyla":
+                super.getDescriptionArtiodactyla();
                 break;
             case "Mammalia":
                 super.getDescriptionMammalia();
