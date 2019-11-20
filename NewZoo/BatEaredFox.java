@@ -21,11 +21,6 @@ public class BatEaredFox extends Otocyon
         return "Walks slowly";
     }
     
-    public String fly() 
-    {
-        return "Hovers above your head";
-    }
-    
     public String[] getParents(){
         return new String[]{"Animalia", "Chordata", "Mammalia", "Carnivora", "Canidae", 
                 "Otocyon", "Bat Eared Fox"};  

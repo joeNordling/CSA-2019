@@ -1,43 +1,43 @@
-public class BoreanOrangutan extends Pongo
+public class BlackRhinoceros extends Diceros
 {
-    public BoreanOrangutan(String name, String desc)
+    public BlackRhinoceros(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise()
     {
-        return "Growl and Howl";
+        return "roar";
     }
     
     public String eat()
     {
-        return "Wild figs, durians leaves, seeds, bird eggs, flowers, honey, insects";
+        return "Leafy plants, branches, shoots, thorny wood bushes, and fruit.";
     }
     
     public String walk()
     {
-        return "Climbs up trees";
+        return "charges";
     }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", 
-                "Pongo", "Borean Orangutan"};  
+        return new String[]{"Animalia", "Chordata", "Mammalia", "Perissodactyla", "Rhinocerotidae", 
+                "Diceros", "Black Rhinoceros"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Borean Orangutan":
+            case "Black Rhinoceros":
                 super.getDesc();
                 break;
-            case "Pongo":
-                super.getDescriptionPongo();
+            case "Diceros":
+                super.getDescriptionDiceros();
                 break;
-            case "Hominidae":
-                super.getDescriptionHominidae();
+            case "Rhinocerotidae":
+                super.getDescriptionRhinocerotidae();
                 break;
-            case "Primates":
-                super.getDescriptionPrimates();
+            case "Perissodactyla":
+                super.getDescriptionPerissodactyla();
                 break;
             case "Mammalia":
                 super.getDescriptionMammalia();

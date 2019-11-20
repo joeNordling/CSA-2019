@@ -1,4 +1,4 @@
-public abstract class Otocyon extends Canidae implements Flying
+public abstract class Otocyon extends Canidae
 {
     public Otocyon(String name, String desc)
     {

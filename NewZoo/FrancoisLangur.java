@@ -1,18 +1,18 @@
-public class BoreanOrangutan extends Pongo
+public class FrancoisLangur extends Trachypithecus
 {
-    public BoreanOrangutan(String name, String desc)
+    public FrancoisLangur(String name, String desc)
     {
         super(name, desc);
     }
     
     public String makeNoise()
     {
-        return "Growl and Howl";
+        return "grunts";
     }
     
     public String eat()
     {
-        return "Wild figs, durians leaves, seeds, bird eggs, flowers, honey, insects";
+        return "Leaves, fruits, seeds, flowers, stems, roots, bark,";
     }
     
     public String walk()
@@ -21,20 +21,20 @@ public class BoreanOrangutan extends Pongo
     }
     
     public String[] getParents(){
-        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Hominidae", 
-                "Pongo", "Borean Orangutan"};  
+        return new String[]{"Animalia", "Chordata", "Mammalia", "Primates", "Cercopithecidae", 
+                "Trachypithecus", "Francois Langur"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "Borean Orangutan":
+            case "Francois Langur":
                 super.getDesc();
                 break;
-            case "Pongo":
-                super.getDescriptionPongo();
+            case "Trachypithecus":
+                super.getDescriptionTrachypithecus();
                 break;
-            case "Hominidae":
-                super.getDescriptionHominidae();
+            case "Cercopithecidae":
+                super.getDescriptionCercopithecidae();
                 break;
             case "Primates":
                 super.getDescriptionPrimates();
