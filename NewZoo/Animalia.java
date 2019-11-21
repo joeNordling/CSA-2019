@@ -1,4 +1,4 @@
-public abstract class Animalia
+public abstract class Animalia implements parent
 {
     private String name;
     private String desc;
@@ -22,6 +22,10 @@ public abstract class Animalia
     public abstract String eat();
     
     public abstract String makeNoise();
+    
+    public abstract String[] getParents();
+    
+    public abstract void getDescription(String statement);
     
     public void getDescriptionAnimalia(){
         System.out.println("Members of the Animalia Kingdom are multicellular eukaryotic organisms");

@@ -31,7 +31,7 @@ public class AfricanFishEagle extends Haliaeetus
                 super.getDescriptionHaliaeetus();
                 break;
             case "Accipitridae":
-                super.getDescriptionHaliaeetus();
+                super.getDescriptionAccipitridae();
                 break;
             case "Accipitriformes":
                 super.getDescriptionAccipitriformes();

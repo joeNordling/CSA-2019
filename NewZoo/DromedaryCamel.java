@@ -22,12 +22,12 @@ public class DromedaryCamel extends Camelus
     
     public String[] getParents(){
         return new String[]{"Animalia", "Chordata", "Mammalia", "Artiodactyla", "Camelidae", 
-                "Camelus", "DromedaryCamel"};  
+                "Camelus", "Dromedary Camel"};  
     }
     
     public void getDescription(String statement){
         switch(statement) {
-            case "DromedaryCamel":
+            case "Dromedary Camel":
                 super.getDesc();
                 break;
             case "Camelus":

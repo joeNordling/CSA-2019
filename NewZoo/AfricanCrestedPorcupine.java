@@ -7,7 +7,7 @@ public class AfricanCrestedPorcupine extends Hystrix
     
     public String makeNoise()
     {
-        return "ratttle-hissing noise";
+        return "rattle-hissing noise";
     }
     
     public String eat()
