@@ -26,7 +26,7 @@ public class Zoo
         String msg = "";
         while(!text.equals("leave"))
         {
-            switch(text)
+            switch(text.toLowerCase())
             {
                 case "help" : 
                 msg = "So far we can visit cages, listen, leave \n"+
@@ -71,9 +71,11 @@ public class Zoo
                 for(Animalia a : animals)
                 {
                     if(a instanceof Mammalia){
+                        System.out.println("");
                         System.out.println(a.getClass().getName() + " is an animal you can learn about");
                     }
                 }
+                System.out.println("");
                 System.out.println("Which animal would you like more information on?");
                 String text2= in.nextLine();
                 for(Animalia a : animals)
@@ -82,8 +84,10 @@ public class Zoo
                     {
                         for(String parent : a.getParents())
                         {
+                            System.out.println("");
                             System.out.println(parent + " is an type of you can learn about");
-                        }     
+                        }
+                        System.out.println("");
                         System.out.println("Which of these would you like to learn about?");
                         String text4 = in.nextLine();
                         a.getDescription(text4);
@@ -95,9 +99,11 @@ public class Zoo
                 for(Animalia a : animals)
                 {
                     if(a instanceof Amphibian){
+                        System.out.println("");
                         System.out.println(a.getClass().getName() + " is an animal you can learn about");
                     }
                 }
+                System.out.println("");
                 System.out.println("Which animal would you like more information on?");
                 text2= in.nextLine();
                 for(Animalia a : animals)
@@ -106,8 +112,10 @@ public class Zoo
                     {
                         for(String parent : a.getParents())
                         {
+                            System.out.println("");
                             System.out.println(parent + " is an type of you can learn about");
-                        }     
+                        }
+                        System.out.println("");
                         System.out.println("Which of these would you like to learn about?");
                         String text4 = in.nextLine();
                         a.getDescription(text4);
@@ -119,9 +127,11 @@ public class Zoo
                 for(Animalia a : animals)
                 {
                     if(a instanceof Reptilia){
+                        System.out.println("");
                         System.out.println(a.getClass().getName() + " is an animal you can learn about");
                     }
                 }
+                System.out.println("");
                 System.out.println("Which animal would you like more information on?");
                 text2= in.nextLine();
                 for(Animalia a : animals)
@@ -130,8 +140,10 @@ public class Zoo
                     {
                         for(String parent : a.getParents())
                         {
+                            System.out.println("");
                             System.out.println(parent + " is an type of you can learn about");
-                        }     
+                        }
+                        System.out.println("");
                         System.out.println("Which of these would you like to learn about?");
                         String text4 = in.nextLine();
                         a.getDescription(text4);
@@ -143,9 +155,11 @@ public class Zoo
                 for(Animalia a : animals)
                 {
                     if(a instanceof Aves){
+                        System.out.println("");
                         System.out.println(a.getClass().getName() + " is an animal you can learn about");
                     }
                 }
+                System.out.println("");
                 System.out.println("Which animal would you like more information on?");
                 text2= in.nextLine();
                 for(Animalia a : animals)
@@ -154,8 +168,10 @@ public class Zoo
                     {
                         for(String parent : a.getParents())
                         {
+                            System.out.println("");
                             System.out.println(parent + " is an type of you can learn about");
-                        }     
+                        }
+                        System.out.println("");
                         System.out.println("Which of these would you like to learn about?");
                         String text4 = in.nextLine();
                         a.getDescription(text4);
@@ -167,9 +183,11 @@ public class Zoo
                 for(Animalia a : animals)
                 {
                     if(a instanceof Tetrapoda){
+                        System.out.println("");
                         System.out.println(a.getClass().getName() + " is an animal you can learn about");
                     }
                 }
+                System.out.println("");
                 System.out.println("Which animal would you like more information on?");
                 text2= in.nextLine();
                 for(Animalia a : animals)
@@ -178,8 +196,10 @@ public class Zoo
                     {
                         for(String parent : a.getParents())
                         {
+                            System.out.println("");
                             System.out.println(parent + " is an type of you can learn about");
                         }     
+                        System.out.println("");
                         System.out.println("Which of these would you like to learn about?");
                         String text4 = in.nextLine();
                         a.getDescription(text4);
