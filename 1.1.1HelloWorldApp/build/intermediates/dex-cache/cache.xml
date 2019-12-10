@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.0.1_d879344ce3f53ede56e5df60c445507aa9e3cfaa.jar" />
+    </item>
+    <item
+        jar="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.0.1/jars/libs/internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/pre-dexed/debug/internal_impl-23.0.1_ca18c91378f9bdc35540f4bb2b36f0a115b60f04.jar" />
+    </item>
+    <item
+        jar="/Users/josephnordling/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/23.0.1/1fce89a6428c51467090d7f424e4c9c3dbd55f7e/support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/pre-dexed/debug/support-annotations-23.0.1_f5e9a7c15832b714c406820da29ed3a3e77bcc91.jar" />
+    </item>
+    <item
+        jar="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.0.1_6ec1a4ecbf38fc912011d3f8352deffff208f1d1.jar" />
+    </item>
+    <item
+        jar="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/exploded-aar/com.android.support/design/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5c61a3169221a89654ffcaaed47bba51cf071ad">
+        <dex dex="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.0.1_e04abfec6ec6d8a59302a69c5d133735d8a73dd9.jar" />
+    </item>
+
+</items>

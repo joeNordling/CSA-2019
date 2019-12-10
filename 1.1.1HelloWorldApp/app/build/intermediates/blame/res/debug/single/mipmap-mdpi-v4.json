@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/C:\\Users\\ckinnard\\Documents\\AndroidProjects2\\1.1.1HelloWorldApp\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi-v4\\ic_launcher.png",
+        "source": "/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/C:\\Users\\ckinnard\\Documents\\AndroidProjects2\\1.1.1HelloWorldApp\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    }
+]

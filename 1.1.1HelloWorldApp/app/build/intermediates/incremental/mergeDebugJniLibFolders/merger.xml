@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/src/main/jniLibs"/></dataSet><dataSet config="debug"><source path="/Users/josephnordling/Documents/GitHub/CSA-2019/1.1.1HelloWorldApp/app/src/debug/jniLibs"/></dataSet></merger>
