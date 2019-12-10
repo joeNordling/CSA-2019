@@ -1,0 +1,73 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/87c767b61df4e7ce42d5f0dc429c995f/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-v4:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/33d3e82eaa7ecd61ea6ad2d239d68ffa/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:3:5-41
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:1-20:12
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/87c767b61df4e7ce42d5f0dc429c995f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/87c767b61df4e7ce42d5f0dc429c995f/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/33d3e82eaa7ecd61ea6ad2d239d68ffa/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/33d3e82eaa7ecd61ea6ad2d239d68ffa/AndroidManifest.xml:22:5-20
+	android:supportsRtl
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:8:9-41
+	android:icon
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:10:9-40
+activity#org.pltw.examples.okmagpie.MainActivity
+ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:11:9-17:20
+	android:name
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:11:19-47
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/87c767b61df4e7ce42d5f0dc429c995f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/87c767b61df4e7ce42d5f0dc429c995f/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/33d3e82eaa7ecd61ea6ad2d239d68ffa/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:22.2.1] /Users/josephnordling/.gradle/caches/transforms-2/files-2.1/33d3e82eaa7ecd61ea6ad2d239d68ffa/AndroidManifest.xml:20:5-43
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		ADDED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/josephnordling/Documents/GitHub/CSA-2019/CSA116OkMagpie2/app/src/main/AndroidManifest.xml
