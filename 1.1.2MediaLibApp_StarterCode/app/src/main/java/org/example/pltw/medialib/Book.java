@@ -3,10 +3,22 @@ package org.example.pltw.medialib;
 public class Book {
     private int rating;
     private String title;
+    private double price;
 
     public Book() {
         rating = 0;
         title = "";
+    }
+
+    public Book(String title, double price) {
+        this.title = title;
+        this.price = price;
+    }
+
+    public Book(String title, double price, int rating) {
+        this.title = title;
+        this.price = price;
+        this.rating = rating;
     }
 
     public String getTitle() {

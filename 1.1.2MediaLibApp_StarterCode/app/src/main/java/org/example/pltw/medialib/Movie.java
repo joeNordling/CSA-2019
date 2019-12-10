@@ -4,11 +4,23 @@ public class Movie {
     private int rating;
     private String title;
     private int duration;
+    private double price;
 
     public Movie() {
         rating = 0;
         title = "";
         duration = 0;
+    }
+
+    public Movie(String title, double price) {
+        this.title = title;
+        this.price = price;
+    }
+
+    public Movie(String title, double price, int rating) {
+        this.title = title;
+        this.price = price;
+        this.rating = rating;
     }
 
     public String getTitle() {

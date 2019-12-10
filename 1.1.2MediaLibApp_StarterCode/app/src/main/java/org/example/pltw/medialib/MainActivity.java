@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         Banana.setTitle("Banana Pancakes");
         Matrix.setTitle("The Matrix");
         Leaders.setTitle("Leaders Start with why?");
+        Book Gatsby = new Book("The Great Gatsby", 9.99);
+        Movie IronMan = new Movie("Iron Man", 9.99);
         outputText.append("SONGS:");
         outputText.append("\n");
         outputText.append(Johnny.getTitle());
@@ -57,10 +59,14 @@ public class MainActivity extends AppCompatActivity {
         outputText.append("\n");
         outputText.append(Matrix.getTitle());
         outputText.append("\n");
+        outputText.append(IronMan.getTitle());
+        outputText.append("\n");
         outputText.append("BOOKS:");
         outputText.append("\n");
         outputText.append(Bible.getTitle());
         outputText.append("\n");
         outputText.append(Leaders.getTitle());
+        outputText.append("\n");
+        outputText.append(Gatsby.getTitle());
     }
 }
