@@ -20,11 +20,15 @@ public class Concentration extends Board
      */
     public Concentration() { 
         String[] cards = getCards();
+        int count = 0;
         // to do
         for(int i = 0; i < gameboard.length; i++){
             for(int j = 0; j < gameboard[i].length; j++){
-                gameboard[i][j] = new Tile(cards[i*gameboard[i].length+j]);
+                int ran = (int)(Math.random() * ((cards.length - count)));
+                gameboard[i][j] = new Tile(cards[ran]);
+                cards[ran] = cards[(cards.length-1) - count];
                 System.out.print(gameboard[i][j].getFace() + "\t");
+                count++;
             }
             System.out.print("\n");
         }
@@ -92,8 +96,14 @@ public class Concentration extends Board
     public String toString() {
         
         // to do
-        
-        return "";
+        String finalString = "";
+        for(int i = 0; i < gameboard.length; i++){
+            for(int j = 0; j < gameboard[i].length; j++){
+                finalString = finalString + gameboard[i][j] + "\t";
+            }
+            finalString = finalString + "\n";
+        }
+        return finalString;
     }
 
 }
