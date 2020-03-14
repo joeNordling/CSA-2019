@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\joenor20\\Documents\\GitHub\\CSA-2019\\1.2.2AndroidStudio\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w360dp-v13\\values-w360dp-v13.xml",
+            "outputFile": "/Users/josephnordling/Documents/GitHub/CSA-2019/1.2.2AndroidStudio/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\joenor20\\.gradle\\caches\\transforms-2\\files-2.1\\5472face7b0eb0dfe2b551f299da0dab\\appcompat-v7-23.1.1\\res\\values-w360dp\\values-w360dp.xml",
+                    "source": "/Users/josephnordling/.gradle/caches/transforms-2/files-2.1/5472face7b0eb0dfe2b551f299da0dab/appcompat-v7-23.1.1/res/values-w360dp/values-w360dp.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "4",

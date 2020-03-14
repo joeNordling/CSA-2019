@@ -1,5 +1,7 @@
 package org.example.pltw.medialib;
 
+import android.content.Context;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -15,15 +17,37 @@ public class MainActivity extends AppCompatActivity {
 
     private ListView songListView;
 
+    private boolean everyOtherSong = false;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Context context = this;
+        SharedPreferences sharedPreferences = this.getPreferences(Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putBoolean(getString(R.string.every_other_string), everyOtherSong);
+        editor.commit();
+
+
         songListView = (ListView) findViewById(R.id.mediaLibList);
 
-        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, songs);
-
+        ArrayAdapter<String> arrayAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
+        boolean local = sharedPreferences.getBoolean(getString(R.string.every_other_string), everyOtherSong);
+        if(local){
+            int i = 0;
+            for(String a : songs){
+                if(i % 2 == 0) {
+                    arrayAdapter.add(a);
+                }
+                i++;
+            }
+        } else {
+            for(String a : songs){
+                    arrayAdapter.add(a);
+            }
+        }
         songListView.setAdapter(arrayAdapter);
     }
 

@@ -760,8 +760,9 @@ int string abc_toolbar_collapse_description 0x7f0b0012
 int string app_name 0x7f0b0013
 int string appbar_scrolling_view_behavior 0x7f0b0014
 int string character_counter_pattern 0x7f0b0015
-int string mediaLibButtonText 0x7f0b0016
-int string status_bar_notification_info_overflow 0x7f0b0017
+int string every_other_string 0x7f0b0016
+int string mediaLibButtonText 0x7f0b0017
+int string status_bar_notification_info_overflow 0x7f0b0018
 int style AlertDialog_AppCompat 0x7f0c0000
 int style AlertDialog_AppCompat_Light 0x7f0c0001
 int style Animation_AppCompat_Dialog 0x7f0c0002

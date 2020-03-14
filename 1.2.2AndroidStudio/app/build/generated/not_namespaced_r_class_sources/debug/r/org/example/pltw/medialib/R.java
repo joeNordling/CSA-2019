@@ -2551,8 +2551,9 @@ public final class R {
     public static final int app_name=0x7f0b0013;
     public static final int appbar_scrolling_view_behavior=0x7f0b0014;
     public static final int character_counter_pattern=0x7f0b0015;
-    public static final int mediaLibButtonText=0x7f0b0016;
-    public static final int status_bar_notification_info_overflow=0x7f0b0017;
+    public static final int every_other_string=0x7f0b0016;
+    public static final int mediaLibButtonText=0x7f0b0017;
+    public static final int status_bar_notification_info_overflow=0x7f0b0018;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f0c0000;

@@ -761,6 +761,7 @@ string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
 string character_counter_pattern
+string every_other_string
 string mediaLibButtonText
 string status_bar_notification_info_overflow
 style AlertDialog_AppCompat

@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Media Library</string>
     <string name="mediaLibButtonText">Show Library</string>
+    <string name="every_other_string">example.pltw.org.every_other_string</string>
 </resources>
